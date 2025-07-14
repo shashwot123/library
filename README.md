@@ -33,7 +33,7 @@ A simple library system to add, display, update, and remove books — built with
 
 ## 📂 Structure
   
-/project-root
-├── index.html
-├── styles.css
-└── script.js
+- /project-root
+- ├── index.html
+- ├── styles.css
+- └── script.js
