@@ -27,7 +27,35 @@ html {
     background-color: gray;
 }
 
-.add-book {
+#dialog {
+    padding: 1rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dialog-content {
     display: flex;
     flex-direction: column;
+}
+
+.dialog-content>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-book {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1rem;
+}
+
+#add-book>div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#read {
+    justify-self: flex-start;
 }
